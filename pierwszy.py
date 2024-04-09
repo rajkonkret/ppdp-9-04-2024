@@ -27,3 +27,22 @@ print(54 + 14)  # 68
 print(5 * "4")  # 44444
 print(5 * int("4"))  # int() - rzutowanie(zamiana) na typ int  # 20
 print(str(56) + "44")  # str() - rzutowanie na string(typ tekstowy) 5644 - konkatenacja
+
+# zmienna - pudełko na dane
+# snake_case
+# typowanie dynamiczne
+name = "Radek"
+print(type(name))  # <class 'str'>
+print(name)  # Radek
+
+name = 56
+print(name)
+print(type(name))  # <class 'int'>
+
+name: str = 90  # to jest tylko podpowiedz, program nadal działa
+print(name)
+print(type(name))  # <class 'int'>
+
+age = 48
+print(age)  # 48
+print(type(age))  # <class 'int'>
