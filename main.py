@@ -16,3 +16,8 @@ if __name__ == '__main__':
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 # dwa razy shift - podręzne menu
 # ctrl shift f10 lub prawy klawisz myszy run - uruchomienie programu
+# (.venv) PS C:\Users\CSComarch\PycharmProjects\ppdp-9-04-2024> python.exe .\main.py
+# Hi, PyCharm
+# (.venv) PS C:\Users\CSComarch\PycharmProjects\ppdp-9-04-2024>
+# # ctrl /
+# ctrl alt l
