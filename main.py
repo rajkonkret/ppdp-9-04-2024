@@ -14,3 +14,5 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# dwa razy shift - podręzne menu
+# ctrl shift f10 lub prawy klawisz myszy run - uruchomienie programu
