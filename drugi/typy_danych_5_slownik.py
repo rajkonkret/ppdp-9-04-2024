@@ -56,3 +56,32 @@ print(empty_dict)  # {}
 
 my_dict = dictionary.copy()  # kopiowanie elementów
 print(my_dict)
+
+# input() - pobranie danych od uzytkownika
+odp = input("Podaj imię")  # zwraca stringa str
+print(odp)  # Radek
+print(type(odp))  # <class 'str'>
+
+# pobrac dane od uzytkownika a i b
+# wyswietlic wynik działąnia +
+a = input("Podaj pierwszą liczbę")
+b = input("Podaj drugą liczbę")
+print(a + b)  # konkatenacja bo input() zwraca stringi
+
+a = int(input("Podaj pierwszą liczbę"))
+b = float(input("Podaj drugą liczbę"))
+print(a + b)
+
+a = input("Podaj pierwszą liczbę")
+b = input("Podaj drugą liczbę")
+print(int(a) + float(b))
+c = int(a) + float(b)
+print("Liczba c:", c)
+
+# napisac program słownik polsko angielski
+# pobrac polskie słowo od użytkownika
+# wypisac tłumaczenie
+dict_words = {'imie': 'name', 'zamek': 'castle', 'woda': 'water'}
+print("Słówka dostępne w słowniku", dict_words.keys())
+odp = input("Podaj słówko do przetłumaczenia")  # str()
+print(dict_words[odp.lower().replace(" ", "")])
