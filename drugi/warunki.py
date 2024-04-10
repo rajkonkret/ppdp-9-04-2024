@@ -99,18 +99,18 @@ a = a + 1
 a += 1
 print(a)
 
-spam = 1
-spam += 1  # spam = spam + 1
-print(spam)
+spam1 = 1
+spam1 += 1  # spam = spam + 1
+print(spam1)
 
-spam -= 1  # spam = spam - 1
-print(spam)
+spam1 -= 1  # spam = spam - 1
+print(spam1)
 
-spam *= 1  # spam = spam * 1
-print(spam)
+spam1 *= 1  # spam = spam * 1
+print(spam1)
 
-spam /= 1  # spam = spam / 1
-print(spam)
+spam1 /= 1  # spam = spam / 1
+print(spam1)
 
-spam %= 1  # spam = spam % 1
-print(spam)
+spam1 %= 1  # spam = spam % 1
+print(spam1)
