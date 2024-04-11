@@ -2,6 +2,7 @@
 # pola
 # funkcje
 # obiekt  - instancja klasy, obiekt zbudowany wg przepisu czyli klasy
+# abstrakcja, hermetyzacja (enkapsulacja), dziedziczenie, polimorfizm
 
 # deklaracji klasy - tu się nie wykonuje
 class Human:
