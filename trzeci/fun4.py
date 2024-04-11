@@ -7,7 +7,7 @@ def fun1():
     def fun2():
         print("To jest fun2")
 
-    return fun2  # zwraca adres funkcji (referencje)
+    return fun2  # zwraca adres funkcji (referencje), bez nawiasów
 
 
 # nazwa funkcji i nawiasy()
