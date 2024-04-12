@@ -116,3 +116,6 @@ spam -= 1    spam = spam - 1
 spam *= 1    spam = spam * 1
 spam /= 1    spam = spam / 1
 spam %= 1    spam = spam % 1
+
+(.venv) PS C:\Users\CSComarch\PycharmProjects\ppdp-9-04-2024> pip freeze > requirements.txt
+(.venv) PS C:\Users\CSComarch\PycharmProjects\ppdp-9-04-2024> pip instal -v .\requirements.txt
