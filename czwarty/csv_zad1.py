@@ -29,6 +29,6 @@ dict_list = [
 ]
 
 with open('records3.csv', 'w', newline="") as f:
-    csvwriter = csv.DictWriter(f, fieldnames=fields)
+    csvwriter = csv.DictWriter(f, fieldnames=fields, delimiter=";")
     csvwriter.writeheader()
     csvwriter.writerows(dict_list)
